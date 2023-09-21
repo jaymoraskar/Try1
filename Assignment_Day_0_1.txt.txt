@@ -1,0 +1,11 @@
+What is prune in Fetch?
+Answer: The Git prune command is much like an internal housekeeping utility that cleans up unreachable Git objects. It is useful when there are a lot many files or commits in our working directory that we don't want to keep. If an object or commit is no more reachable from the current branch, git prune will delete that object or commit from the working directory. It is a way to make the directory lighter and easier to track the progress of the project.
+2 Learn what is squash and interactive interface of squash?
+Answer: Squashing allows you to combine multiple commits in your branch’s history into a single commit. This can help keep your repository’s history more readable and understandable.
+The first thing you need to do is to tell git how far back you want to rebase. So, if you want to squash all those commits in the new-feature branch together, you need to go back 6 commits. Now, you need to replace all those picks with squash (or simply s) apart from the first one.
+3 What is merge conflicts and how to resolve it? 
+Answer: If you've made changes to the same file from different branches and the changes are conflicting, there will be a merge conflict. On many occasions, Git automatically handles merging for you make to the same file, you have to resolve them manually.
+
+
+
+
